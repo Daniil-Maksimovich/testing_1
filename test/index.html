@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Test</title>
+        <!--Styles-->
+        <link rel="stylesheet" href="./styles/styles.css">
+        <!--Normalize-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <!--Font Awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+        <!--JS-->
+        <script src="./index.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__logo">
+                    <img src="./img/logo.png" alt="logo">
+                </div>
+                <nav class="header__navigation">
+                    <a href="#" class="prevent">Home</a>
+                    <a href="#" class="prevent">Service</a>
+                    <a href="#" class="prevent">About us</a>
+                    <a href="#" class="prevent">Pricing table</a>
+                    <a href="#" class="prevent">How it work</a>
+                    <a href="#" class="prevent">Happy clients</a>
+                    <a href="#" class="prevent">Contact us</a>
+                </nav>
+                <div class="burger-menu">
+                    <a href="#" class="burger-menu__button prevent">
+                        <span class="burger-menu__lines"></span>
+                    </a>
+                    <nav class="burger-menu__nav">
+                        <a href="home" class="prevent">home</a>
+                        <a href="about" class="prevent">Service</a>
+                        <a href="hard" class="prevent">About us</a>
+                        <a href="portfolio" class="prevent">Pricing table</a>
+                        <a href="education" class="prevent">How it work</a>
+                        <a href="soft" class="prevent">Happy clients</a>
+                        <a href="soft" class="prevent">Contact us</a>
+                    </nav>
+                    <div class="burger-menu__overlay"></div>
+                </div>
+            </div>
+        </header>
+        <section class="intro">
+            <div class="container">
+                <div class="intro__content">
+                    <h1>Boost up your local bussiness</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae est
+                        voluptates necessitatibus. Dolorum, odio nostrum!</p>
+                    <form action="" class="intro__form">
+                        <div class="intro__form__inputs">
+                            <div class="intro__form__inputs__block">
+                                <label class="button-icon">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                    <input type="text" placeholder="Full Name"/>
+                                </label>
+                            </div>
+                            <div class="intro__form__inputs__block">
+                                <label class="button-icon">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <input type="text" placeholder="Email Address"/>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="intro__form__inputs">
+                            <div class="intro__form__inputs__block">
+                                <label class="button-icon">
+                                    <i class="fa fa-phone phone__icon" aria-hidden="true"></i>
+                                    <input type="number" placeholder="Phone Number"/>
+                                </label>
+                            </div>
+                            <input type="submit" class="button" value="Request a quote"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <img class="intro__laptop" src="./img/intro_laptop.png" alt="laptop"/>
+        <div class="intro__circles">
+            <div class="active"></div>
+            <div></div>
+            <div></div>
+        </div>
+    </section>
+    <section class="work-steps">
+        <div class="container">
+            <div class="work-steps__heading">
+                <h2>How it works</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="work-steps__content">
+                <div class="work-steps__content__block">
+                    <div class="work-steps__content__item step_block">
+                        <img src="./img/step1.png" alt="step">
+                        <h3>Step 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quibusdam
+                            deserunt .</p>
+                    </div>
+                    <div class="work-steps__content__item arrow">
+                        <img src="./img/step_arrow1.png" alt="step">
+                    </div>
+                    <div class="work-steps__content__item step_block">
+                        <img src="./img/step2.png" alt="step">
+                        <h3>Step 2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quibusdam
+                            deserunt .</p>
+                    </div>
+                </div>
+                <div class="work-steps__content__item arrow arrow__padding">
+                    <img src="./img/step_arrow2.png" alt="step">
+                </div>
+                <div class="work-steps__content__block">
+                    <div class="work-steps__content__item step_block">
+                        <img src="./img/step3.png" alt="">
+                        <h3>Step 3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quibusdam
+                            deserunt .</p>
+                    </div>
+                    <div class="work-steps__content__item arrow">
+                        <img src="./img/step_arrow1.png" alt="step">
+                    </div>
+                    <div class="work-steps__content__item step_block">
+                        <img src="./img/step4.png" alt="step">
+                        <h3>Step 4</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quibusdam
+                            deserunt .</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="work-steps__button">
+                <button class="button">Get start now</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
